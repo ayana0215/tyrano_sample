@@ -1,46 +1,71 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="当たれ！性格診断！"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[cm]
 
-メロスは激怒した。[l][r]
+[bg storage=cloud2.jpg time=500]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+『当たれ！性格診断！』[r]
 
-(中略)[l][r]
+Q. 空を飛ぶための乗り物4種類があなたの目の前にあります。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+あなたはどれを選びますか？直感で選んでね！[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_balloon] →気球 [endlink][r]
+[link target=*tag_plane] →飛行機 [endlink][r]
+[link target=*tag_rocket] →ロケット [endlink][r]
+[link target=*tag_wings] →空を飛べる羽 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_balloon
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=balloon.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あなたは平和を好む人。[l][r]
+そして相手の性格をじっくり観察できるタイプだから、人間関係におけるトラブルはほとんどなさそう！[r]
 
-【 BAD END 】[l][cm]
+どう？当たってた？[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_plane
 
-[bg storage=run.jpg time=500]
+[bg storage=airplane.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+あなたは物事を合理的に考える人。[l][r]
+人に左右されることや、直感で「何か」を選択することはないので、周りからの信頼も厚いよ！[r]
 
-【 GOOD END 】[l][cm]
+どう？当たってた？[l][cm]
+
+[jump target=*start]
+
+*tag_rocket
+
+[bg storage=rocket.jpg time=500]
+
+[cm]
+あなたは秘密主義なタイプ。[l][r]
+他人との距離感を大切にする人なので、誤解されてしまうことも多いけど、そのミステリアスな雰囲気に惹かれる人も多いよ！[r]
+
+どう？当たってた？[l][cm]
+
+[jump target=*start]
+
+*tag_wings
+
+[bg storage=wings.jpg time=500]
+
+[cm]
+あなたはユーモアにあふれるタイプ。[l][r]
+あなたの考え、あなたの言葉を大切に！そのままのあなたでいてね！[r]
+
+どう？当たってた？[l][cm]
 
 [jump target=*start]
